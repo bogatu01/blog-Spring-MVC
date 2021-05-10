@@ -1,8 +1,8 @@
-package com.itproger.blog.controllers;
+package com.vadim.blog.controllers;
 
 
-import com.itproger.blog.models.Post;
-import com.itproger.blog.repo.PostRepository;
+import com.vadim.blog.models.Post;
+import com.vadim.blog.repo.PostRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -12,7 +12,6 @@ import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import java.util.ArrayList;
 import java.util.Optional;
-import java.util.function.Supplier;
 
 @Controller
 public class BlogController {

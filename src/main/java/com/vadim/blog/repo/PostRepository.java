@@ -1,6 +1,6 @@
-package com.itproger.blog.repo;
+package com.vadim.blog.repo;
 
-import com.itproger.blog.models.Post;
+import com.vadim.blog.models.Post;
 import org.springframework.data.repository.CrudRepository;
 
 public interface PostRepository extends CrudRepository<Post, Long> {
